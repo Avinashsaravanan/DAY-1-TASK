@@ -1,0 +1,37 @@
+                                          HTTP1.1
+
+1.HTTP 1.1 is the latest version of Hypertext Transfer Protocol (HTTP), 
+the World Wide Web application protocol that runs on top of the Internet's TCP/IP suite of protocols. 
+HTTP 1.1 provides faster delivery of Web pages than the original HTTP and reduces Web traffic.
+
+2. The first usable version of HTTP was created in 1997. Because it went through several stages of development, 
+this first version of HTTP was called HTTP/1.1. This version is still in use on the web.
+
+3.The purpose The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, 
+collaborative, hypermedia information systems. HTTP has been in use by the World-Wide Web global information initiative since 1990.
+
+4.The requirement of HTTP1.1 is The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
+ "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119
+
+5.The HTTP protocol is a request/response protocol. A client sends a request to the server in the form of a request method,
+ URI, and protocol version, followed by a MIME-like message containing request modifiers, client information
+
+
+                                              HTTP2
+
+1. HTTP/2 will make our applications faster, simpler, and more robust — a rare combination — by allowing us to undo many of the HTTP/1.1 
+workarounds previously done within our applications and address these concerns within the transport layer itself.
+
+2.HTTP/2 is a replacement for how HTTP is expressed “on the wire.” It is not a ground-up rewrite of the protocol; HTTP methods, 
+status codes and semantics are the same, and it should be possible to use the same APIs as HTTP/1.x (possibly with some small additions) 
+to represent the protocol.
+
+3.HTTP/2 is comprised of two specifications:
+     * Hypertext Transfer Protocol version 2 - RFC9113
+     * HPACK - Header Compression for HTTP/2 - RFC7541
+
+4.The primary goals of HTTP/2 are:
+
+       *Enable request and response multiplexing
+       *Header compression
+       *Compatibility with the methods, status codes, URIs, and header fields defined by the HTTP/1.1 standard
